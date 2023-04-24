@@ -99,10 +99,11 @@ a:hover {
     cursor: pointer;
 } */
 .div-buttons {
-    margin-top: auto; /* adiciona margem superior automática para fixar a div de botões no final */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    margin-top: auto;
+    /* adiciona margem superior automática para fixar a div de botões no final */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .buttons {
@@ -155,4 +156,14 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+footer {
+    border-top: 10px solid #6a3d2c;
+    background-color: #ffc2a2;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 0.9rem;
+    color:#4d2c20;
+    font-weight: 800;
 }
