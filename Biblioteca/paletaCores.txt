@@ -3,5 +3,3 @@
 .color3 { #6a3d2c };
 .color4 { #8a5f51 };
 .color5 { #a19587 };
-
-Lista Livros:
