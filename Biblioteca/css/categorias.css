@@ -50,7 +50,7 @@ nav {
 }
 
 .bemvindos {
-    padding: 20px 30px 0px 30px;
+    padding: 20px;
 }
 
 .bemvindos p {
@@ -66,8 +66,8 @@ nav {
     font-size: 1.1rem;
     background-color: #000;
     color: #e5c9b6;
-    padding: 20px 15px;
-    margin: 10px 10px;
+    padding: 20px;
+    margin-bottom: 10px;
 }
 
 section {
@@ -122,6 +122,8 @@ a:hover {
     justify-items: center;
     align-items: center;
     list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .bordalivros {
@@ -141,7 +143,7 @@ a:hover {
     /* height: 200px; */
 }
 
-.testeLivros {
+.container-livros {
     display: flex;
     flex-direction: column;
     background-color: #6a3d2c;
@@ -151,7 +153,7 @@ a:hover {
     padding: 20px;
 }
 
-.testeLivrosParagrafos {
+.container-livrosParagrafos {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,4 +168,12 @@ footer {
     font-size: 0.9rem;
     color:#4d2c20;
     font-weight: 800;
+}
+
+/* Responsivo */
+
+@media screen and (max-width:1120px) {
+    .container {
+        flex-wrap: wrap;
+    }
 }
