@@ -6,22 +6,18 @@
 }
 
 body {
-    background-image: url(/Biblioteca/imgs/teste.png);
-    background-repeat: repeat;
-    background-position: center;
-    background-size: cover;
+   background: #4d2c20;
 }
-
 #tituloprincipal {
     padding: 20px;
     margin: 10px;
-    color: rgb(255, 238, 0);
     font-family: 'Lobster', cursive;
     text-align: center;
     font-size: 5rem;
 }
 
 nav {
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,3 +70,40 @@ footer {
     color:#4d2c20;
     font-weight: 800;
 }
+.imagens{
+    width:100%; 
+    height: 250px;
+}
+.container{
+    padding: 20px;
+    height:auto;
+    display: flex;
+    align-items: start ;
+    align-self: center;
+    overflow:hidden;
+}
+.container .livros{
+    margin: 15px;
+    border: solid 1px ;
+    background-color: #6a3d2c;
+    margin: 4px;
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+    align-self: center;
+}
+.bemvindos p {
+    background-color: #6a3d2c;
+    font-size: 1.1rem;
+    padding: 20px;
+    text-align: justify;
+    font-weight: 600;
+}
+#artigo{
+    border: solid 1px;
+    padding: 20px;
+    align-self:self-start;
+}
+
+
+
