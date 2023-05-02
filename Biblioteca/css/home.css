@@ -6,22 +6,22 @@
 }
 
 body {
-    background-image: url(/Biblioteca/imgs/teste.png);
-    background-repeat: repeat;
-    background-position: center;
-    background-size: cover;
+    padding-bottom: 50px;
+    background: #4d2c20;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 #tituloprincipal {
     padding: 20px;
     margin: 10px;
-    color: rgb(255, 238, 0);
-    font-family: 'Lobster', cursive;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 5rem;
 }
 
 nav {
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,17 +52,115 @@ nav {
     margin-top: 30px;
 }
 
+h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.vermais {
+    display: flex;
+    justify-items: center;
+}
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-livros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+}
+
 section {
     text-align: center;
     padding: 3em;
     margin: auto;
-    font-size: 2em;
-    line-height: 3em;
+    font-size: 1.17em;
     color: rgb(147, 179, 243);
-    font-family: 'Lobster', cursive;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Vina Sans', cursive;
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: 3em;
+}
+
+footer {
+    border-top: 10px solid #6a3d2c;
+    background-color: #ffc2a2;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 0.9rem;
+    color: #4d2c20;
+    font-weight: 800;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.imagens {
+    width: 100%;
+    height: 250px;
+}
+
+.container {
+    padding: 20px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    overflow: hidden;
+    flex-direction: column;
+
+}
+
+.container .livros {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    border: solid 1px;
+    background-color: #6a3d2c;
+    margin: 4px;
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+    align-self: center;
+}
+
+button {
+    background-color: #a19587;
+    border: none;
+    color: black;
+    padding: 8px;
+    display: flex;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.div-buttons {
+    margin-top: auto;
+    /* adiciona margem superior automática para fixar a div de botões no final */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bemvindos p {
+    background-color: #6a3d2c;
+    font-size: 1.1rem;
+    padding: 20px;
+    text-align: justify;
+    font-weight: 600;
+    
+}
+
+#artigo {
+    border: solid 1px;
+    padding: 20px;
+    align-self: self-start;
 }
 
 footer {
@@ -73,4 +171,5 @@ footer {
     font-size: 0.9rem;
     color:#4d2c20;
     font-weight: 800;
+    
 }
