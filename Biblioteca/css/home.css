@@ -12,7 +12,7 @@ body {
 #tituloprincipal {
     padding: 20px;
     margin: 10px;
-    font-family: 'Lobster', cursive;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 5rem;
 }
@@ -52,7 +52,6 @@ nav {
 h2 {
     margin-bottom: 20px;
     font-size: 2em;
-    font-family: 'Vina Sans', cursive;
 }
 
 h3 {
@@ -62,6 +61,10 @@ h3 {
 .vermais {
     display: flex;
     justify-items: center;
+}
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container-livros {
@@ -78,9 +81,7 @@ section {
     margin: auto;
     font-size: 1.17em;
     color: rgb(147, 179, 243);
-    font-family: 'Lobster', cursive;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Vina Sans', cursive;
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: 3em;
 }
 
