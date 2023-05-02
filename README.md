@@ -10,7 +10,7 @@ O projeto permite que o usuário visualize a lista de livros disponíveis na bib
 ## Como executar o projeto
 Para executar o projeto, siga os seguintes passos:
 
-Clone o repositório para sua máquina local
+Clone o repositório para sua máquina local <br>
 Abra o arquivo home.html em seu navegador de preferência
 ## Contribuições
 Este é um projeto de código aberto e as contribuições são bem-vindas! Se você deseja contribuir, sinta-se à vontade para fazer um fork e enviar pull requests com melhorias, correções ou novas funcionalidades.
