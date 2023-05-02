@@ -42,3 +42,33 @@ footer {
     color:#4d2c20;
     font-weight: 800;
 }
+
+body{
+    background-color: #4d2c20;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    margin: 5px;
+    padding: 10px 100px;
+    text-align: justify;
+}
+
+article {
+    padding: 10px 100px;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    color: #000000;
+}
+
+p{
+    color: #d5ccc7;
+    text-align: justify;
+}
+
+li{
+    color: #d5ccc7;
+}
