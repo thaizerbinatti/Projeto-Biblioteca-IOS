@@ -5,8 +5,8 @@ Este é um projeto de uma biblioteca online desenvolvido utilizando HTML e CSS, 
 O projeto permite que o usuário visualize a lista de livros disponíveis na biblioteca, bem como nome do autor e a capa de cada livro.
 
 ## Tecnologias utilizadas
-HTML
-CSS
+- HTML <br>
+- CSS
 ## Como executar o projeto
 Para executar o projeto, siga os seguintes passos:
 
