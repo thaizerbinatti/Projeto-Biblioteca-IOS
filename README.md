@@ -1,4 +1,4 @@
-## Projeto Biblioteca Online
+## Projeto Biblioteca IOS
 Este é um projeto de uma biblioteca online desenvolvido utilizando HTML e CSS, que disponibiliza livros de domínio público para leitura online.
 
 ## Funcionalidades
