@@ -118,11 +118,8 @@ a:hover {
 }
 
 .container {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    list-style-type: none;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
     justify-content: center;
 }
 
@@ -172,8 +169,26 @@ footer {
 
 /* Responsivo */
 
-@media screen and (max-width:1120px) {
+@media screen and (max-width:1270px) {
     .container {
-        flex-wrap: wrap;
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .container {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .container {
+        grid-template-columns: auto;
     }
 }

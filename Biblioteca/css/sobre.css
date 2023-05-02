@@ -34,13 +34,21 @@ nav {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     border-top: 10px solid #6a3d2c;
     background-color: #ffc2a2;
-    text-align: center;
     padding: 20px 0px;
     font-size: 0.9rem;
-    color:#4d2c20;
+    color: #4d2c20;
     font-weight: 800;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #4d2c20;
 }
 
 body{

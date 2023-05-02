@@ -6,7 +6,10 @@
 }
 
 body {
+    padding-bottom: 50px;
     background: #4d2c20;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 #tituloprincipal {
@@ -72,7 +75,7 @@ article {
     flex-direction: row;
     flex-wrap: wrap;
     justify-items: center;
-
+    justify-content: center;
 }
 
 section {
@@ -93,7 +96,7 @@ footer {
     font-size: 0.9rem;
     color: #4d2c20;
     font-weight: 800;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
